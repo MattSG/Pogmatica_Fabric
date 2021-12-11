@@ -1,5 +1,13 @@
 {
-  "item.pogmatica.pogaxe": "PogAxe",
-  "item.pogmatica.pogaxe.tooltip": "The most poggin' axe to pog with",
-  "itemGroup.pogmatica.items": "Pogmatica"
+  "item.pogmatica.pogaxe": "Pogaxe",
+  "item.pogmatica.pogaxe.tooltip": "The most poggin' pickaxe to pog with",
+  "item.pogmatica.patchet": "Patchet",
+  "item.pogmatica.patchet.tooltip": "The most poggin' hatchet to pog with",
+  "item.pogmatica.povel": "Povel",
+  "item.pogmatica.povel.tooltip": "The most poggin' shovel to pog with",
+  "item.pogmatica.pagger": "Pagger",
+  "item.pogmatica.pagger.tooltip": "The most poggin' dagger to pog with",
+  "itemGroup.pogmatica.items": "Pogmatica",
+  "entity.minecraft.pig": "Pog",
+  "item.minecraft.pig_spawn_egg": "Pog Spawn Egg"
 }

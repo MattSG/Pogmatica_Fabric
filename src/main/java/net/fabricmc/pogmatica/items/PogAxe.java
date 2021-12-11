@@ -1,4 +1,4 @@
-package net.fabricmc.pogmatica;
+package net.fabricmc.pogmatica.items;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;

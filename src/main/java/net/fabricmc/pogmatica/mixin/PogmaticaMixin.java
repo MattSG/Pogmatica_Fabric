@@ -7,8 +7,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(TitleScreen.class)
-public class pogmaticaMixin {
-	@Inject(at = @At("HEAD"), method = "init()V")
-	private void init(CallbackInfo info) {
-	}
+public class PogmaticaMixin {
+    @Inject(at = @At("HEAD"), method = "init()V")
+    private void init(CallbackInfo info) {
+    }
 }

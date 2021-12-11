@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.pogmatica.pogmaticaMod"
+      "net.fabricmc.pogmatica.PogmaticaMod"
     ]
   },
   "mixins": [

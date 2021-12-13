@@ -1,28 +1,28 @@
 {
   "variants": {
     "age=0": {
-      "model": "pogmatica:block/aspogarus_stage0"
+      "model": "pogmatica:block/aspogarus_stage_0"
     },
     "age=1": {
-      "model": "pogmatica:block/aspogarus_stage1"
+      "model": "pogmatica:block/aspogarus_stage_1"
     },
     "age=2": {
-      "model": "pogmatica:block/aspogarus_stage2"
+      "model": "pogmatica:block/aspogarus_stage_2"
     },
     "age=3": {
-      "model": "pogmatica:block/aspogarus_stage3"
+      "model": "pogmatica:block/aspogarus_stage_3"
     },
     "age=4": {
-      "model": "pogmatica:block/aspogarus_stage4"
+      "model": "pogmatica:block/aspogarus_stage_4"
     },
     "age=5": {
-      "model": "pogmatica:block/aspogarus_stage5"
+      "model": "pogmatica:block/aspogarus_stage_5"
     },
     "age=6": {
-      "model": "pogmatica:block/aspogarus_stage6"
+      "model": "pogmatica:block/aspogarus_stage_6"
     },
     "age=7": {
-      "model": "pogmatica:block/aspogarus_stage7"
+      "model": "pogmatica:block/aspogarus_stage_7"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/crop",
   "textures": {
-    "crop": "pogmatica:block/aspogarus_stage1"
+    "crop": "pogmatica:block/aspogarus_stage_2"
   }
 }

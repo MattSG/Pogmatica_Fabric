@@ -22,7 +22,7 @@
       "net.fabricmc.pogmatica.PogmaticaMod"
     ],
     "client": [
-      "net.fabricmc.pogmatica.ModClient"
+      "net.fabricmc.pogmatica.ClientMod"
     ]
   },
   "mixins": [

@@ -1,6 +1,5 @@
 package net.fabricmc.pogmatica.armor.materials;
 
-import net.fabricmc.pogmatica.tools.materials.PogToolMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;

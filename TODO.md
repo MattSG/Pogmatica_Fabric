@@ -6,9 +6,30 @@
 
 ### Armor
 
-- [ ] Prog armor
-- [ ] Rare drop prog helmet 1/10000 from progs
+- [x] Armor
+  - [ ]  Custom models
+  - [ ]  Custom textures
+  - [ ]  Balance stats
+- [ ] Rare drop helmet 1/10000 from frogs
   - Allows creative flight - consumes essence orbs
+
+### Tools
+
+- [x] Pickaxe
+  - [ ] Custom model/texture
+  - [ ] Balance stats
+- [x] Axe
+  - [ ] Custom model/texture
+  - [ ] Balance stats
+- [x] Shovel
+  - [ ] Custom model/texture
+  - [ ] Balance stats
+- [x] Sword
+  - [ ] Custom model/texture
+  - [ ] Balance stats
+- [ ] Hoe
+  - [ ] Custom model/texture
+  - [ ] Balance stats
 
 ### Blocks/Items
 
@@ -27,7 +48,7 @@
 
 ### Crops
 
-- [ ] Crop - planting infused seeds
+- [ ] Crop - planting infused seeds - grows faster in pog dimension
   - Can be used to create essence through refining
 
 ### Fluids
@@ -37,7 +58,7 @@
 
 ### Entities
 
-- [ ] Prog
+- [ ] Frogs
 
 ### Dimensions
 

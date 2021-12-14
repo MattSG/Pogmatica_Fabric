@@ -52,9 +52,11 @@
 - [ ] Pogginator 5000
   - [ ]  Requires XP (pump in liquid as option), Requires essence
   - [ ]  Upgrades weapons
+- [ ] Equivalent Exchange Chest that uses pogtricity or essence
 
 ### Foods
 
+- [ ] Doritos
 - [ ] Pogen-dazs icecream
   - [ ] jump boost effect when consumed
 

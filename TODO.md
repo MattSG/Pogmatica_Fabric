@@ -46,6 +46,10 @@
 - [ ] Refinery
 - [ ] Tank
 
+### Foods
+- [ ] Pogen-dazs icecream
+  - [ ] jump boost effect when consumed
+
 ### Crops
 
 - [ ] Crop - planting infused seeds - grows faster in pog dimension

@@ -13,6 +13,10 @@
 - [ ] Rare drop helmet 1/10000 from frogs
   - Allows creative flight - consumes essence orbs
 
+### Custom Enchantments
+
+- [ ] Armor Enchant - Whistles every time you jump
+
 ### Tools
 
 - [x] Pickaxe
@@ -45,8 +49,12 @@
 - [ ] Extractor
 - [ ] Refinery
 - [ ] Tank
+- [ ] Pogginator 5000
+  - [ ]  Requires XP (pump in liquid as option), Requires essence
+  - [ ]  Upgrades weapons
 
 ### Foods
+
 - [ ] Pogen-dazs icecream
   - [ ] jump boost effect when consumed
 

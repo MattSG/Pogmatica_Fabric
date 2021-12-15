@@ -49,7 +49,7 @@
 - [x] Hardened Handle
 - [x] Imbued Handle
 - [x] Aspogarus seeds
-- [ ] Aspogarus
+- [x] Aspogarus
 - [ ] Anhydrous Aspogarus
 - [ ] Aspogarous Powder
 - [ ] Kiln

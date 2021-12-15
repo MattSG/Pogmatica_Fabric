@@ -7,6 +7,6 @@ import net.minecraft.client.render.RenderLayer;
 public class ClientMod implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), PogmaticaMod.ASPOGARUS);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), PogmaticaMod.ASPOGARUS_BLOCK);
     }
 }

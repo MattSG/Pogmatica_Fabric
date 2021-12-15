@@ -38,21 +38,32 @@
 ### Blocks/Items
 
 - [ ] Pog Plant/Bush
-- [ ] Poganite ore
-- [ ] Pog bars
+- [ ] Poganite Ore
 - [ ] Essence orbs
-- [ ] Infused rod
-- [ ] Infused seeds
+- [x] Poganite Ingot
+- [x] Hardened Poganite Ingot
+- [x] Poganite Plate
+- [x] Rod
+- [x] Poganite Rod
+- [x] Handle
+- [x] Hardened Handle
+- [x] Imbued Handle
+- [x] Aspogarus seeds
+- [ ] Aspogarus
+- [ ] Anhydrous Aspogarus
+- [ ] Aspogarous Powder
+- [ ] Kiln
 - [ ] Crusher
   - [ ] Hand crank variant
   - [ ] Pogtricity Variant
-- [ ] Extractor
+- [ ] Homogenizer
+- [ ] Crusher
 - [ ] Refinery
 - [ ] Tank
 - [ ] Pogginator 5000
-  - [ ]  Requires XP (pump in liquid as option), Requires essence
+  - [ ]  Requires XP (pump in liquid as option), Requires elixir
   - [ ]  Upgrades weapons
-- [ ] Equivalent Exchange Chest that uses pogtricity or essence
+- [ ] Equivalent Exchange Chest that uses pogtricity or elixir
 
 ### Foods
 
@@ -62,13 +73,12 @@
 
 ### Crops
 
-- [ ] Crop - planting infused seeds - grows faster in pog dimension
-  - Can be used to create essence through refining
+- [x] Aspogarus - Can be used to create essence through refining
 
 ### Fluids
 
-- [ ] Pog essence
-- [ ] Some sort of refined essence
+- [ ] Elixir of the Pog
+- [ ] Pogadiene (hydrocarbon byproduct from refinery)
 
 ### Entities
 

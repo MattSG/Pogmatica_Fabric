@@ -1,7 +1,10 @@
 package net.fabricmc.pogmatica.blocks;
 
-import net.fabricmc.pogmatica.PogmaticaMod;
-import net.minecraft.block.*;
+import net.fabricmc.pogmatica.items.ModItems;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.CropBlock;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
@@ -25,7 +28,7 @@ public class AspogarusBlock extends CropBlock {
     }
 
     protected ItemConvertible getSeedsItem() {
-        return PogmaticaMod.ASPOGARUS_SEEDS;
+        return ModItems.ASPOGARUS_SEEDS;
     }
 
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

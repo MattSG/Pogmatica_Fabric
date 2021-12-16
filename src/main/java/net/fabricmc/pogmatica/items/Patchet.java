@@ -1,7 +1,7 @@
-package net.fabricmc.pogmatica.tools;
+package net.fabricmc.pogmatica.items;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.pogmatica.tools.materials.PogToolMaterial;
+import net.fabricmc.pogmatica.material.PogToolMaterial;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ItemStack;
@@ -13,8 +13,8 @@ import net.minecraft.world.World;
 import java.util.List;
 
 public class Patchet extends AxeItem {
-    public Patchet(PogToolMaterial instance, float attackSpeed, float additionalAttackDamage, FabricItemSettings group) {
-        super(instance, attackSpeed, additionalAttackDamage, group);
+    public Patchet(FabricItemSettings group) {
+        super(PogToolMaterial.INSTANCE, 1.0f, 1.0f, group);
     }
 
     @Override

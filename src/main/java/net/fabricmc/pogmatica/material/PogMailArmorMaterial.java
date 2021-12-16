@@ -1,4 +1,4 @@
-package net.fabricmc.pogmatica.armor.materials;
+package net.fabricmc.pogmatica.material;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;

@@ -1,4 +1,4 @@
-package net.fabricmc.pogmatica.tools.materials;
+package net.fabricmc.pogmatica.material;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;

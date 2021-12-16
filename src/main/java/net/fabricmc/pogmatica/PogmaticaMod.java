@@ -3,6 +3,7 @@ package net.fabricmc.pogmatica;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.pogmatica.armor.materials.PogMailArmorMaterial;
 import net.fabricmc.pogmatica.blocks.AspogarusBlock;
 import net.fabricmc.pogmatica.items.*;
@@ -23,9 +24,7 @@ import net.minecraft.util.registry.Registry;
 public class PogmaticaMod implements ModInitializer {
 
         // Groups
-    public static final ItemGroup POGMATICA = FabricItemGroupBuilder.build(
-            new Identifier("pogmatica", "items"),
-            () -> new ItemStack(PogmaticaMod.PATCHET));;
+    public static final ItemGroup POGMATICA = FabricItemGroupBuilder.build(new Identifier("pogmatica", "items"), () -> new ItemStack(PogmaticaMod.PATCHET));;
 
     // Tools
     public static final Item PATCHET = new Patchet(PogToolMaterial.INSTANCE, 3.0F, -3.0F, new FabricItemSettings().group(ItemGroup.TOOLS).group(POGMATICA));
@@ -40,12 +39,15 @@ public class PogmaticaMod implements ModInitializer {
     public static final Item POGMAIL_BOOTS = new ArmorItem(PogMailArmorMaterial.INSTANCE, EquipmentSlot.FEET, new FabricItemSettings().group(POGMATICA));
 
     // Blocks
-    public static final Block ASPOGARUS_BLOCK = new AspogarusBlock(AbstractBlock.Settings.of(Material.PLANT)
-            .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
+    public static final Block ASPOGARUS_BLOCK = new AspogarusBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
+    public static final Block POGANITE_ORE = new Block(FabricBlockSettings.of(Material.METAL).strength(6.0f));
 
     // Items
     public static final Item ASPOGARUS_SEEDS = new AliasedBlockItem(PogmaticaMod.ASPOGARUS_BLOCK, new FabricItemSettings().group(POGMATICA));
     public static final Item ASPOGARUS = new Aspogarus(new FabricItemSettings().group(POGMATICA));
+
+    // BlockItems
+    public static final BlockItem POGANITE_ORE_BLOCK_ITEM = new BlockItem(PogmaticaMod.POGANITE_ORE, new FabricItemSettings().group(POGMATICA));
 
     // Base crafting items
     public static final Item HANDLE = new Handle(new FabricItemSettings().group(POGMATICA));
@@ -72,10 +74,18 @@ public class PogmaticaMod implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("pogmatica", "pogmail_leggings"), POGMAIL_LEGGINGS);
         Registry.register(Registry.ITEM, new Identifier("pogmatica", "pogmail_boots"), POGMAIL_BOOTS);
 
-        // Register items
+        // Register blocks
+        Registry.register(Registry.BLOCK, new Identifier("pogmatica", "aspogarus_block"), ASPOGARUS_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier("pogmatica", "poganite_ore"), POGANITE_ORE);
+
+        // Register BlockItems
+        Registry.register(Registry.ITEM, new Identifier("pogmatica", "poganite_ore"), POGANITE_ORE_BLOCK_ITEM);
+
+        // Register crops
         Registry.register(Registry.ITEM, new Identifier("pogmatica", "aspogarus_seeds"), ASPOGARUS_SEEDS);
         Registry.register(Registry.ITEM, new Identifier("pogmatica", "aspogarus"), ASPOGARUS);
 
+        // Register items
         Registry.register(Registry.ITEM, new Identifier("pogmatica", "handle"), HANDLE);
         Registry.register(Registry.ITEM, new Identifier("pogmatica", "hardened_handle"), HARDENED_HANDLE);
         Registry.register(Registry.ITEM, new Identifier("pogmatica", "imbued_handle"), IMBUED_HANDLE);
@@ -84,8 +94,5 @@ public class PogmaticaMod implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("pogmatica", "poganite_rod"), POGANITE_ROD);
         Registry.register(Registry.ITEM, new Identifier("pogmatica", "hardened_poganite_ingot"), HARDENED_POGANITE_INGOT);
         Registry.register(Registry.ITEM, new Identifier("pogmatica", "poganite_plate"), POGANITE_PLATE);
-
-        // Register blocks
-        Registry.register(Registry.BLOCK, new Identifier("pogmatica", "aspogarus_block"), ASPOGARUS_BLOCK);
     }
 }

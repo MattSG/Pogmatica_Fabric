@@ -39,7 +39,7 @@
 
 - [ ] Pog Plant/Bush
 - [ ] Poganite Ore
-- [ ] Essence orbs
+- [ ] Fluid Orbs
 - [x] Poganite Ingot
 - [x] Hardened Poganite Ingot
 - [x] Poganite Plate
@@ -55,6 +55,7 @@
 
 ### Blocks
 
+- [ ] Basic Generator (Output - Pogtricity)
 - [ ] Kiln
 - [ ] Crusher
   - [ ] Hand crank variant
@@ -67,6 +68,7 @@
   - [ ]  Requires XP (pump in liquid as option), Requires elixir
   - [ ]  Upgrades weapons
 - [ ] Equivalent Exchange Chest that uses pogtricity or elixir
+- [ ] Are multi-blocks possible?
 
 ### Foods
 
@@ -81,7 +83,8 @@
 ### Fluids
 
 - [ ] Elixir of the Pog
-- [ ] Pogadiene (hydrocarbon byproduct from refinery)
+- [ ] Unrefined Slurry
+- [ ] Pogadiene (hydrocarbon byproduct from refining slurry)
 
 ### Entities
 

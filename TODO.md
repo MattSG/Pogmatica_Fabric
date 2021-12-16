@@ -35,7 +35,7 @@
   - [ ] Custom model/texture
   - [ ] Balance stats
 
-### Blocks/Items
+### Items
 
 - [ ] Pog Plant/Bush
 - [ ] Poganite Ore
@@ -52,6 +52,9 @@
 - [x] Aspogarus
 - [ ] Anhydrous Aspogarus
 - [ ] Aspogarous Powder
+
+### Blocks
+
 - [ ] Kiln
 - [ ] Crusher
   - [ ] Hand crank variant

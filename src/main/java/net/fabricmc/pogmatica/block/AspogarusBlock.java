@@ -1,6 +1,6 @@
-package net.fabricmc.pogmatica.blocks;
+package net.fabricmc.pogmatica.block;
 
-import net.fabricmc.pogmatica.items.ModItems;
+import net.fabricmc.pogmatica.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;

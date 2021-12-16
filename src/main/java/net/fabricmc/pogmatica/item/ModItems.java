@@ -1,6 +1,5 @@
-package net.fabricmc.pogmatica.items;
+package net.fabricmc.pogmatica.item;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.pogmatica.PogmaticaMod;
 import net.fabricmc.pogmatica.material.PogMailArmorMaterial;
 import net.minecraft.entity.EquipmentSlot;
@@ -8,6 +7,8 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+
+import static net.fabricmc.pogmatica.PogmaticaMod.GetDefaultSettings;
 
 public class ModItems {
     public static final Item ASPOGARUS;
@@ -58,11 +59,7 @@ public class ModItems {
         return Registry.register(Registry.ITEM, new Identifier(PogmaticaMod.MOD_ID, name), new ArmorItem(PogMailArmorMaterial.INSTANCE, slot, GetDefaultSettings()));
     }
 
-    private static FabricItemSettings GetDefaultSettings() {
-        return new FabricItemSettings().group(PogmaticaMod.DEFAULT_GROUP);
-    }
-
-    public static void registerModItems() {
+    public static void register() {
         System.out.println("Registering Mod Items for " + PogmaticaMod.MOD_ID);
     }
 }

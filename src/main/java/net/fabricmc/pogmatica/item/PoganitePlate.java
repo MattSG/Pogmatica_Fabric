@@ -1,4 +1,4 @@
-package net.fabricmc.pogmatica.items;
+package net.fabricmc.pogmatica.item;
 
 import net.minecraft.item.Item;
 

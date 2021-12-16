@@ -1,4 +1,4 @@
-package net.fabricmc.pogmatica.blocks;
+package net.fabricmc.pogmatica.block;
 
 import net.minecraft.block.Block;
 

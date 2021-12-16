@@ -1,4 +1,4 @@
-package net.fabricmc.pogmatica.items;
+package net.fabricmc.pogmatica.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.pogmatica.material.PogToolMaterial;

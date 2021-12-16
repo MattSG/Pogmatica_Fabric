@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.tag.TagFactory;
 import net.fabricmc.pogmatica.armor.materials.PogMailArmorMaterial;
 import net.fabricmc.pogmatica.blocks.AspogarusBlock;
 import net.fabricmc.pogmatica.items.*;
@@ -18,12 +19,15 @@ import net.minecraft.block.Material;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.tag.Tag;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class PogmaticaMod implements ModInitializer {
 
-        // Groups
+    public static final String MOD_ID = "pogmatica";
+
+    // Groups
     public static final ItemGroup POGMATICA = FabricItemGroupBuilder.build(new Identifier("pogmatica", "items"), () -> new ItemStack(PogmaticaMod.PATCHET));;
 
     // Tools
@@ -40,7 +44,7 @@ public class PogmaticaMod implements ModInitializer {
 
     // Blocks
     public static final Block ASPOGARUS_BLOCK = new AspogarusBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
-    public static final Block POGANITE_ORE = new Block(FabricBlockSettings.of(Material.METAL).strength(6.0f));
+    public static final Block POGANITE_ORE = new Block(FabricBlockSettings.of(Material.METAL).strength(10.0f).requiresTool());
 
     // Items
     public static final Item ASPOGARUS_SEEDS = new AliasedBlockItem(PogmaticaMod.ASPOGARUS_BLOCK, new FabricItemSettings().group(POGMATICA));

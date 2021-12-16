@@ -1,5 +1,4 @@
-# Pogmatica Mod
+# Pogmatica Mod - FabricMC Mod
 
 ## Setup
-
-TBD
+https://fabricmc.net/wiki/tutorial:setup

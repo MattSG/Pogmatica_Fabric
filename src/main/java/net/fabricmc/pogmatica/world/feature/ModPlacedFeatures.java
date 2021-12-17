@@ -20,7 +20,7 @@ public class ModPlacedFeatures {
         OVERWORLD_POGANITE_ORE_FEATURE = register(ModConfiguredFeatures.OVERWORLD_POGANITE_ORE_CONFIGURED_FEATURE.withPlacement(
                 CountPlacementModifier.of(20),
                 SquarePlacementModifier.of(),
-                HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))), "overworld_wool_ore");
+                HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(64))), "overworld_poganite_ore");
     }
 
     private static PlacedFeature register(PlacedFeature placedFeature, String name) {

@@ -17,8 +17,8 @@ public class PogmaticaMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModItems.register();
         ModBlocks.register();
+        ModItems.register();
     }
 
     public static FabricItemSettings GetDefaultSettings() {

@@ -1,8 +1,10 @@
 package net.fabricmc.pogmatica.item;
 
 import net.fabricmc.pogmatica.PogmaticaMod;
+import net.fabricmc.pogmatica.block.ModBlocks;
 import net.fabricmc.pogmatica.material.PogMailArmorMaterial;
 import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
@@ -11,28 +13,30 @@ import net.minecraft.util.registry.Registry;
 import static net.fabricmc.pogmatica.PogmaticaMod.GetDefaultSettings;
 
 public class ModItems {
-    public static final Item ASPOGARUS;
-    public static final Item ASPOGARUS_SEEDS;
-    public static final Item HANDLE;
-    public static final Item HARDENED_HANDLE;
-    public static final Item HARDENED_POGANITE_INGOT;
-    public static final Item IMBUED_HANDLE;
-    public static final Item PAGGER;
-    public static final Item PATCHET;
-    public static final Item POGANITE_INGOT;
-    public static final Item POGANITE_PLATE;
-    public static final Item POGANITE_ROD;
-    public static final Item POGAXE;
-    public static final Item POVEL;
-    public static final Item ROD;
-    public static final Item POGMAIL_HELMET;
-    public static final Item POGMAIL_CHESTPLATE;
-    public static final Item POGMAIL_LEGGINGS;
-    public static final Item POGMAIL_BOOTS;
+    public static Item ASPOGARUS;
+    public static Item ASPOGARUS_SEEDS;
+    public static Item HANDLE;
+    public static Item HARDENED_HANDLE;
+    public static Item HARDENED_POGANITE_INGOT;
+    public static Item IMBUED_HANDLE;
+    public static Item PAGGER;
+    public static Item PATCHET;
+    public static Item POGANITE_INGOT;
+    public static Item POGANITE_PLATE;
+    public static Item POGANITE_ROD;
+    public static Item POGAXE;
+    public static Item POVEL;
+    public static Item ROD;
+    public static Item POGMAIL_HELMET;
+    public static Item POGMAIL_CHESTPLATE;
+    public static Item POGMAIL_LEGGINGS;
+    public static Item POGMAIL_BOOTS;
 
-    static {
+    public static void register() {
+        System.out.println("Registering Mod Items for " + PogmaticaMod.MOD_ID);
+
         ASPOGARUS = registerItem("aspogarus", new Aspogarus(GetDefaultSettings()));
-        ASPOGARUS_SEEDS = registerItem("aspogarus_seeds", new AspogarusSeeds(GetDefaultSettings()));
+        ASPOGARUS_SEEDS = registerItem("aspogarus_seeds", new AliasedBlockItem(ModBlocks.ASPOGARUS_BLOCK, GetDefaultSettings()));
         HANDLE = registerItem("handle", new Handle(GetDefaultSettings()));
         HARDENED_HANDLE = registerItem("hardened_handle", new HardenedHandle(GetDefaultSettings()));
         HARDENED_POGANITE_INGOT = registerItem("hardened_poganite_ingot", new HardenedPoganiteIngot(GetDefaultSettings()));
@@ -57,9 +61,5 @@ public class ModItems {
 
     private static Item registerArmor(String name, EquipmentSlot slot) {
         return Registry.register(Registry.ITEM, new Identifier(PogmaticaMod.MOD_ID, name), new ArmorItem(PogMailArmorMaterial.INSTANCE, slot, GetDefaultSettings()));
-    }
-
-    public static void register() {
-        System.out.println("Registering Mod Items for " + PogmaticaMod.MOD_ID);
     }
 }

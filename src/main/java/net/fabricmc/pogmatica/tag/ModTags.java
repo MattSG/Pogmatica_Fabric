@@ -1,4 +1,4 @@
-package net.fabricmc.pogmatica.util;
+package net.fabricmc.pogmatica.tag;
 
 import net.fabricmc.fabric.api.tag.TagFactory;
 import net.fabricmc.pogmatica.PogmaticaMod;

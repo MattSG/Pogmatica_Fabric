@@ -14,14 +14,14 @@ import static net.fabricmc.pogmatica.PogmaticaMod.GetDefaultSettings;
 
 public class ModBlocks {
 
-    public static Block ASPOGARUS_BLOCK;
+    public static Block ASPOGARUS_CROP_BLOCK;
     public static Block POGANITE_ORE;
     public static BlockItem POGANITE_ORE_BLOCK_ITEM;
 
     public static void register() {
         System.out.println("Registering Mod Items for " + PogmaticaMod.MOD_ID);
 
-        ASPOGARUS_BLOCK = registerBlock("aspogarus_block", new AspogarusBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+        ASPOGARUS_CROP_BLOCK = registerBlock("aspogarus_crop_block", new AspogarusCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
         POGANITE_ORE = registerBlock("poganite_ore", new PoganiteOre(FabricBlockSettings.of(Material.METAL).strength(10.0f).requiresTool()));
         POGANITE_ORE_BLOCK_ITEM = registerBlockItem("poganite_ore", new BlockItem(POGANITE_ORE, GetDefaultSettings()));
     }

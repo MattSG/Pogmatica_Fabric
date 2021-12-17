@@ -36,7 +36,7 @@ public class ModItems {
         System.out.println("Registering Mod Items for " + PogmaticaMod.MOD_ID);
 
         ASPOGARUS = registerItem("aspogarus", new Aspogarus(GetDefaultSettings()));
-        ASPOGARUS_SEEDS = registerItem("aspogarus_seeds", new AliasedBlockItem(ModBlocks.ASPOGARUS_BLOCK, GetDefaultSettings()));
+        ASPOGARUS_SEEDS = registerItem("aspogarus_seeds", new AliasedBlockItem(ModBlocks.ASPOGARUS_CROP_BLOCK, GetDefaultSettings()));
         HANDLE = registerItem("handle", new Handle(GetDefaultSettings()));
         HARDENED_HANDLE = registerItem("hardened_handle", new HardenedHandle(GetDefaultSettings()));
         HARDENED_POGANITE_INGOT = registerItem("hardened_poganite_ingot", new HardenedPoganiteIngot(GetDefaultSettings()));

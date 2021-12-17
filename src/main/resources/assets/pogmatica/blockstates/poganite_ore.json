@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pogmatica:block/poganite_ore" }
+    "": {
+      "model": "pogmatica:block/poganite_ore"
+    }
   }
 }

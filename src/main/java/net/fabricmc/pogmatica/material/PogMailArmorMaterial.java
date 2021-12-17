@@ -9,8 +9,8 @@ import net.minecraft.sound.SoundEvents;
 public class PogMailArmorMaterial implements ArmorMaterial {
     public static final ArmorMaterial INSTANCE = new PogMailArmorMaterial();
 
-    private static final int[] BASE_DURABILITY = new int[] {10, 10, 10, 10};
-    private static final int[] PROTECTION_VALUES = new int[] {10, 10, 10, 10};
+    private static final int[] BASE_DURABILITY = new int[]{10, 10, 10, 10};
+    private static final int[] PROTECTION_VALUES = new int[]{10, 10, 10, 10};
 
     @Override
     public int getDurability(EquipmentSlot slot) {

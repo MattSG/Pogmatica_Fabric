@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "modid",
   "version": "${version}",
-
   "name": "Pogmatica",
   "description": "It's just pog.",
   "authors": [
@@ -12,10 +11,8 @@
     "homepage": "https://github.com/MattSG/Pogmatica/blob/pog/README.md",
     "sources": "https://github.com/MattSG/Pogmatica"
   },
-
   "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -28,7 +25,6 @@
   "mixins": [
     "modid.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",

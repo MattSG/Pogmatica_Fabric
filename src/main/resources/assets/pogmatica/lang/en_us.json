@@ -25,5 +25,6 @@
   "item.pogmatica.rod": "Rod",
   "itemGroup.pogmatica.items": "Pogmatica",
   "item.pogmatica.poganite_ore": "Poganite Ore",
-  "block.pogmatica.poganite_ore": "Poganite Ore"
+  "block.pogmatica.poganite_ore": "Poganite Ore",
+  "item.pogmatica.poganol_bucket" : "Poganol Bucket"
 }

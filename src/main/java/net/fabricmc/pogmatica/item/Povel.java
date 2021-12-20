@@ -13,8 +13,8 @@ import net.minecraft.world.World;
 import java.util.List;
 
 public class Povel extends ShovelItem {
-    public Povel(FabricItemSettings group) {
-        super(PogToolMaterial.INSTANCE, 1.0f, 1.0f, group);
+    public Povel(FabricItemSettings settings) {
+        super(PogToolMaterial.INSTANCE, 1.0f, 1.0f, settings);
     }
 
     @Override

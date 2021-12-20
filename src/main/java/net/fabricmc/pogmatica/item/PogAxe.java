@@ -13,8 +13,8 @@ import net.minecraft.world.World;
 import java.util.List;
 
 public class PogAxe extends PickaxeItem {
-    public PogAxe(FabricItemSettings group) {
-        super(PogToolMaterial.INSTANCE, 1, 1.0f, group);
+    public PogAxe(FabricItemSettings settings) {
+        super(PogToolMaterial.INSTANCE, 1, 1.0f, settings);
     }
 
     @Override

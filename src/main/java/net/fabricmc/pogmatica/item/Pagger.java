@@ -13,8 +13,8 @@ import net.minecraft.world.World;
 import java.util.List;
 
 public class Pagger extends SwordItem {
-    public Pagger(FabricItemSettings group) {
-        super(PogToolMaterial.INSTANCE, 1, 1.0f, group);
+    public Pagger(FabricItemSettings settings) {
+        super(PogToolMaterial.INSTANCE, 1, 1.0f, settings);
     }
 
     @Override

@@ -13,8 +13,8 @@ import net.minecraft.world.World;
 import java.util.List;
 
 public class Patchet extends AxeItem {
-    public Patchet(FabricItemSettings group) {
-        super(PogToolMaterial.INSTANCE, 1.0f, 1.0f, group);
+    public Patchet(FabricItemSettings settings) {
+        super(PogToolMaterial.INSTANCE, 1.0f, 1.0f, settings);
     }
 
     @Override

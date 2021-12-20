@@ -38,7 +38,7 @@
 ### Items
 
 - [ ] Pog Plant/Bush
-- [ ] Poganite Ore
+- [x] Poganite Ore
 - [ ] Fluid Orbs
 - [x] Poganite Ingot
 - [x] Hardened Poganite Ingot

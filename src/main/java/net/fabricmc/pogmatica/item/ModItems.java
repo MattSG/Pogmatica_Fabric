@@ -14,6 +14,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     public static Item ASPOGARUS;
     public static Item ASPOGARUS_SEEDS;
+    public static Item BUCKET_POGANOL;
     public static Item HANDLE;
     public static Item HARDENED_HANDLE;
     public static Item HARDENED_POGANITE_INGOT;
@@ -36,6 +37,7 @@ public class ModItems {
 
         ASPOGARUS = registerItem("aspogarus", new Aspogarus(Utils.GetDefaultSettings()));
         ASPOGARUS_SEEDS = registerItem("aspogarus_seeds", new AliasedBlockItem(ModBlocks.ASPOGARUS_CROP_BLOCK, Utils.GetDefaultSettings()));
+        BUCKET_POGANOL = registerItem("bucket_poganol", new BucketPoganol(Utils.GetDefaultSettings()));
         HANDLE = registerItem("handle", new Handle(Utils.GetDefaultSettings()));
         HARDENED_HANDLE = registerItem("hardened_handle", new HardenedHandle(Utils.GetDefaultSettings()));
         HARDENED_POGANITE_INGOT = registerItem("hardened_poganite_ingot", new HardenedPoganiteIngot(Utils.GetDefaultSettings()));

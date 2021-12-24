@@ -31,6 +31,7 @@ public class ModItems {
     public static Item POGMAIL_CHESTPLATE;
     public static Item POGMAIL_LEGGINGS;
     public static Item POGMAIL_BOOTS;
+    public static Item POGHOE;
 
     public static void register() {
         System.out.println("Registering items...");
@@ -54,6 +55,7 @@ public class ModItems {
         POGMAIL_LEGGINGS = registerArmor("pogmail_leggings", EquipmentSlot.LEGS);
         POGMAIL_BOOTS = registerArmor("pogmail_boots", EquipmentSlot.FEET);
         ROD = registerItem("rod", new Item(Utils.GetDefaultSettings()));
+        POGHOE = registerItem("poghoe", new Poghoe(Utils.GetDefaultSettings()));
     }
 
     private static Item registerItem(String name, Item item) {

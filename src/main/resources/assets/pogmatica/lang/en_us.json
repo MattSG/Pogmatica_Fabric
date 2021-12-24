@@ -26,5 +26,7 @@
   "itemGroup.pogmatica.items": "Pogmatica",
   "item.pogmatica.poganite_ore": "Poganite Ore",
   "block.pogmatica.poganite_ore": "Poganite Ore",
-  "item.pogmatica.bucket_poganol" : "Poganol Bucket"
+  "item.pogmatica.bucket_poganol": "Poganol Bucket",
+  "item.pogmatica.poghoe": "Poghoe",
+  "item.pogmatica.poghoe.tooltip": "The most pog of poggers hoes"
 }

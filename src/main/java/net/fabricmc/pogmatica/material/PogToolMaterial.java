@@ -19,7 +19,7 @@ public class PogToolMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 2.0F;
+        return 5.0F;
     }
 
     @Override
